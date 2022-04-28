@@ -1,0 +1,22 @@
+{
+  "name": "firebase-auth-https-endpoint",
+  "version": "1.0.0",
+  "description": "This samples shows how to restrict an HTTPS Function to only the Firebase users of your app.",
+  "main": "index.js",
+  "engines": {
+    "node": "16"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "public/node_modules",
+    ".next/cache"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd functions; npm install; cd -",
+    "deploy": "git add . && git commit -m Build && git push && git push heroku && heroku logs --tail --remote heroku"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
