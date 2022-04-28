@@ -108,7 +108,6 @@ git push -u origin main
 
 ```java
 heroku create firebase-auth-https-endpoint
-
 ```
 
 ## Heroku MongoDB Environment Variables
