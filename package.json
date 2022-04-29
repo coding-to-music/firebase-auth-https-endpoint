@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "firebase serve --only hosting,functions",
     "install": "cd functions; npm install; cd -",
     "deploy": "git add . && git commit -m Build && git push && git push heroku && heroku logs --tail --remote heroku"
   },
